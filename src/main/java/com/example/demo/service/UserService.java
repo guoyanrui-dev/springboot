@@ -10,4 +10,8 @@ import java.util.List;
  */
 public interface UserService {
     List<User> getAllUser();
+    int deleteUser(int id);
+    int  insert(int id,String name,String password);
+    User selectOne(int id);
+    int update(int id,String name,String password);
 }

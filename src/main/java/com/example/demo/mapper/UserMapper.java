@@ -14,4 +14,8 @@ import java.util.List;
 @Component
 public interface UserMapper {
     List<User> selectAll();
+    int delete(int id);
+    int add(int id,String name,String password);
+    User selectOne(int id);
+    int update(int id,String name,String password);
 }

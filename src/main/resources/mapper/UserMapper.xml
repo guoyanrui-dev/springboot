@@ -6,5 +6,16 @@
     <select id="selectAll" parameterType="int" resultType="com.example.demo.bean.User">
         select * from mydata.user
     </select>
-
+    <select id="selectOne" resultType="com.example.demo.bean.User">
+        select * from mydata.user where id=#{id}
+    </select>
+    <insert id="add" parameterType="com.example.demo.bean.User">
+        insert into mydata.user(id,name,password)values(#{id},#{name},#{password})
+    </insert>
+    <delete id="delete" parameterType="int">
+        delete from mydata.user where id = #{id}
+    </delete>
+    <update id="update" parameterType="com.example.demo.bean.User">
+        update mydata.user set name=#{name},password=#{password} where id=#{id}
+    </update>
 </mapper>
