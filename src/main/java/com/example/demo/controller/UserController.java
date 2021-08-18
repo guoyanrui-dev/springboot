@@ -58,4 +58,8 @@ public class UserController {
             return "更新失败";
         }
     }
+    @RequestMapping("/main")
+    public String getmain(  ){
+        return "index";
+    }
 }
