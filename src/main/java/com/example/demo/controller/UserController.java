@@ -17,7 +17,7 @@ public class UserController {
     @Autowired
     private UserService userService;
 
-    @RequestMapping("/getUser")
+    @RequestMapping(value ="/getUser")
     @ResponseBody
     public List<User> getStaging() {
         return userService.getAllUser();
@@ -70,5 +70,9 @@ public class UserController {
     @RequestMapping(value = "/main",method = RequestMethod.GET)
     public String getmain() {
         return "index";
+    }
+    @ExceptionHandler(Exception.class)
+    public String exception(){
+       return "error";
     }
 }
