@@ -10,7 +10,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8efa5d2a-f647-475d-8c21-1c77659dcc84" name="Default Changelist" comment="" />
+    <list default="true" id="8efa5d2a-f647-475d-8c21-1c77659dcc84" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/springboot/README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -67,7 +70,7 @@
       <option name="presentableId" value="Default" />
       <updated>1640154934502</updated>
       <workItem from="1640154936292" duration="7000" />
-      <workItem from="1640154965058" duration="1149000" />
+      <workItem from="1640154965058" duration="1658000" />
     </task>
     <servers />
   </component>
